@@ -22,7 +22,7 @@ window.onload = function() {
     }
 
     function refreshCanvas() {
-        ctx.clearRect(0, 0, canvasWidth, canvaHeight);
+        ctx.clearRect(0, 0, canvasWidth, canvasHeight);
         snakee.draw();
         setTimeout(refreshCanvas,delay);
     }
